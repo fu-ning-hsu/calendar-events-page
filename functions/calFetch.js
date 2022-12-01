@@ -1,3 +1,4 @@
+import fetch from 'node-fetch'
 
 const { CAL_API, CAL_ID } = process.env;
 const BASEPARAMS = `orderBy=startTime&singleEvents=true&timeMin=${new Date().toISOString()}`

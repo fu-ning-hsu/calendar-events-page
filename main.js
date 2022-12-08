@@ -5,7 +5,7 @@ const eventContainer = document.querySelector('#events-container')
 const eventAmtToFetch = document.querySelector('#eventAmt')
 
 const getMonth = (month) => ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][month]
-const getDayOfWeek = (weekday) => ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Staurday'][weekday]
+const getDayOfWeek = (weekday) => ['週日', '週一', '週二', '週三', '週四', '週五', '週六'][weekday]
 const isAm = (hour) => hour < 12
 const getHour = (hour) => (hour <= 12 ? hour : hour - 12)
 const getMinute = (minute) => (minute == 0 ? '00' : minute)
